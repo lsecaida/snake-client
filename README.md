@@ -11,7 +11,7 @@ Before you can run this client, you will need to be running the server side whic
 ![First Picture](msnake.jpg "Bilingual Snake")
 ![Second Picture](msnake2.jpg "First Snake")
 
-![MarineGEO circle logo](/assets/img/MarineGEO_logo.png "MarineGEO logo")
+
 
 ## Getting Started
 
