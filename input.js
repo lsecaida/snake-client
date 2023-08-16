@@ -33,7 +33,7 @@ const handleUserInput = function (key) {
     connection.write("Say: Hola!");
   }
   if (key === "x") {
-    connection.write("Say: I am looking for an apple tree");
+    connection.write("Say: Doing Greaaaat!!");
   }
 };
 
