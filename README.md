@@ -11,8 +11,6 @@ Before you can run this client, you will need to be running the server side whic
 ![First Picture](msnake.jpg "Bilingual Snake")
 ![Second Picture](msnake2.jpg "First Snake")
 
-
-
 ## Getting Started
 
 - Follow steps inside the snek server repo to run the server side
