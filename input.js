@@ -1,12 +1,16 @@
-const setupInput = function () {
+let connection; //Global scoped to hold the object value of connect
+
+const setupInput = function (conn) {
+  connection = conn;
   const stdin = process.stdin;
+
   stdin.setRawMode(true);
   stdin.setEncoding("utf8");
   stdin.resume();
   stdin.on("data", handleUserInput); // read data from user input
   return stdin;
 };
-//This is the start of the game and where the player is able to move the snake.
+
 const handleUserInput = function (key) {
   if (key === "\u0003") {
     process.exit();
@@ -26,13 +30,11 @@ const handleUserInput = function (key) {
   }
   //message display
   if (key === "z") {
-    connection.write("Say: Do you like this game?");
+    connection.write("Say: Hola!");
   }
   if (key === "x") {
-    connection.write("Say: Wrong button!");
+    connection.write("Say: I am looking for an apple tree");
   }
 };
 
-module.exports = {
-  setupInput,
-};
+module.exports = setupInput;
